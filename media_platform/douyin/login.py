@@ -20,7 +20,7 @@ class DouYinLogin(AbstractLogin):
                  login_type: str,
                  browser_context: BrowserContext, # type: ignore
                  context_page: Page, # type: ignore
-                 login_phone: Optional[str] = "",
+                 login_phone: Optional[str] = "15198035020",
                  cookie_str: Optional[str] = ""
                  ):
         self.login_type = login_type

@@ -1,6 +1,6 @@
 # 基础配置
 PLATFORM = "xhs"
-KEYWORDS = "python,golang"
+KEYWORDS = "考研数学"
 LOGIN_TYPE = "qrcode"  # qrcode or phone or cookie
 COOKIES = ""
 SORT_TYPE = "popularity_descending"  # 具体值参见media_platform.xxx.field下的枚举值，展示只支持小红书
@@ -43,9 +43,10 @@ XHS_SPECIFIED_ID_LIST = [
 
 # 指定抖音需要爬取的ID列表
 DY_SPECIFIED_ID_LIST = [
-    "7280854932641664319",
-    "7202432992642387233"
+    # "7280854932641664319",
+    # "7202432992642387233"
     # ........................
+
 ]
 
 # 指定快手平台需要爬取的ID列表
@@ -56,10 +57,11 @@ KS_SPECIFIED_ID_LIST = [
 
 # 指定B站平台需要爬取的视频bvid列表
 BILI_SPECIFIED_ID_LIST = [
-    "BV1d54y1g7db",
-    "BV1Sz4y1U77N",
-    "BV14Q4y1n7jz",
+    # "BV1d54y1g7db",
+    # "BV1Sz4y1U77N",
+    # "BV14Q4y1n7jz",
     # ........................
+    "BV1n84y1b7R1",
 ]
 
 # 指定微博平台需要爬取的帖子列表
@@ -70,6 +72,8 @@ WEIBO_SPECIFIED_ID_LIST = [
 
 # 指定小红书创作者ID列表
 XHS_CREATOR_ID_LIST = [
-    "63e36c9a000000002703502b",
+    # "63e36c9a000000002703502b",
     # ........................
+    # "61e675d10000000021025c1b",# 刘钰楠
+    "5cb82f52000000001100ef54",# 谭艳秋
 ]
